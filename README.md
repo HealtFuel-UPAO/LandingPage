@@ -19,4 +19,4 @@ Esta página está construida utilizando HTML, CSS y JavaScript, lo que la hace 
 ## Cómo Utilizar
 1. Clona este repositorio en tu computadora local utilizando el siguiente comando:
    ```bash
-   git
+   git clone https://github.com/HealtFuel-UPAO/LandingPage.git
