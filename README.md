@@ -10,7 +10,6 @@ Esta página está construida utilizando HTML, CSS y JavaScript, lo que la hace 
 - Diseño atractivo y moderno para atraer a los visitantes.
 - Información clara y concisa sobre el proyecto HealthFuel.
 - Recursos de enlaces y contacto para que los usuarios se involucren.
-- Integración de JavaScript para mejorar la experiencia del usuario.
 
 ## Tecnologías Utilizadas
 - HTML
@@ -20,4 +19,4 @@ Esta página está construida utilizando HTML, CSS y JavaScript, lo que la hace 
 ## Cómo Utilizar
 1. Clona este repositorio en tu computadora local utilizando el siguiente comando:
    ```bash
-   git clone https://github.com/tu-usuario/HealthFuel-LandingPage.git
+   git
