@@ -1,6 +1,6 @@
 # HealthFuel Landing Page
 
-![HealthFuel Logo](images/logo.png)
+![HealthFuel Logo](assets/images/logo/logo.png)
 
 ## Descripción
 Landing Page para el proyecto HealthFuel, diseñado para proporcionar información sobre la aplicacion.
