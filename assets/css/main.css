@@ -2269,6 +2269,12 @@ ol {
   margin-bottom: 20px;
 }
 
+.aboutUs h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
 .features .single-feature p {
   line-height: 22px;
 }
@@ -2342,7 +2348,7 @@ ol {
 /*=============================
 	Pricing Table CSS
 ===============================*/
-.pricing-table {
+.aboutUs {
   background-color: var(--color3);
 }
 
@@ -2962,3 +2968,14 @@ ol {
   color: var(--color4);
   background-color: #fff;
 }
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
