@@ -7,7 +7,7 @@
     <title>HealthFuel</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
 
     <!-- ========================= CSS here ========================= -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="assets/css/tiny-slider.css" />
     <link rel="stylesheet" href="assets/css/glightbox.min.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 
 <body>
@@ -40,7 +40,7 @@
                         <!-- Start Navbar -->
                         <nav class="navbar navbar-expand-lg">
                             <a class="navbar-brand" href="index.html">
-                                <img src="assets/images/logo/white-logo.svg" alt="Logo">
+                                <img src="assets/images/logo/white-logo.png" alt="Logo">
                             </a>
                             <!--Responsive menu btn-->
                             <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
@@ -54,29 +54,33 @@
                                 <ul id="nav" class="navbar-nav ms-auto">
                                     <li class="nav-item">
                                         <a href="#home" class="page-scroll active"
-                                            aria-label="Toggle navigation">Home</a>
+                                            aria-label="Toggle navigation">Inicio</a>
                                     </li>
                                     <li class="nav-item">
                                         <a href="#features" class="page-scroll"
-                                            aria-label="Toggle navigation">Features</a>
+                                            aria-label="Toggle navigation">Caracteristicas</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="javascript:void(0)" aria-label="Toggle navigation">Overview</a>
+                                        <a href="#achievements" class="page-scroll"
+                                            aria-label="Toggle navigation">Logros</a>
                                     </li>
                                     <li class="nav-item">
+                                        <a href="#aboutUs"  class="page-scroll">Sobre HealthFuel</a>
+                                    </li>
+                                    <!--li class="nav-item">
                                         <a href="#pricing" class="page-scroll"
                                             aria-label="Toggle navigation">Pricing</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="javascript:void(0)" aria-label="Toggle navigation">Team</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="javascript:void(0)" aria-label="Toggle navigation">Contact</a>
-                                    </li>
+                                    </li-->
+                                    <!--li class="nav-item">
+                                        <a href="javascript:void(0)" aria-label="Toggle navigation">Equipo</a>
+                                    </li-->
+                                    <!--li class="nav-item">
+                                        <a href="javascript:void(0)" aria-label="Toggle navigation">Contacto</a>
+                                    </li-->
                                 </ul>
                             </div> <!-- navbar collapse -->
                             <div class="button add-list-button">
-                                <a href="javascript:void(0)" class="btn">Get it now</a>
+                                <a href="javascript:void(0)" class="btn">Probar Ahora</a>
                             </div>
                         </nav>
                         <!-- End Navbar -->
@@ -93,19 +97,16 @@
             <div class="row align-items-center">
                 <div class="col-lg-5 col-md-12 col-12">
                     <div class="hero-content">
-                        <h1 class="wow fadeInLeft" data-wow-delay=".4s">A powerful app for your business.</h1>
-                        <p class="wow fadeInLeft" data-wow-delay=".6s">From open source to pro services, Piqes helps you
-                            to build, deploy, test, and monitor apps.</p>
+                        <h1 class="wow fadeInLeft" data-wow-delay=".4s">Tu Bienestar, Nuestra Prioridad</h1>
+                        <p class="wow fadeInLeft" data-wow-delay=".6s"> Descubre cómo puedes mejorar tu salud y bienestar con nuestra aplicacion. ¡Comienza tu viaje hacia una vida más saludable hoy mismo</p>
                         <div class="button wow fadeInLeft" data-wow-delay=".8s">
-                            <a href="javascript:void(0)" class="btn"><i class="lni lni-apple"></i> App Store</a>
-                            <a href="javascript:void(0)" class="btn btn-alt"><i class="lni lni-play-store"></i> Google
-                                Play</a>
+                            <a href="javascript:void(0)" class="btn">Probar Ahora</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-12 col-12">
                     <div class="hero-image wow fadeInRight" data-wow-delay=".4s">
-                        <img src="assets/images/hero/phone.png" alt="#">
+                        <img src="assets/images/hero/LaptopApp.png" alt="#">
                     </div>
                 </div>
             </div>
@@ -119,11 +120,9 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-title">
-                        <h3 class="wow zoomIn" data-wow-delay=".2s">Features</h3>
-                        <h2 class="wow fadeInUp" data-wow-delay=".4s">Your Experience Gets Better And Better Over Time.
-                        </h2>
-                        <p class="wow fadeInUp" data-wow-delay=".6s">There are many variations of passages of Lorem
-                            Ipsum available, but the majority have suffered alteration in some form.</p>
+                        <h3 class="wow zoomIn" data-wow-delay=".2s">Nuestras Funciones</h3>
+                        <h2 class="wow fadeInUp" data-wow-delay=".4s">Tu Experiencia se Vuelve Mejor con el Tiempo.</h2>
+                        <p class="wow fadeInUp" data-wow-delay=".6s">Tenemos una amplia gama de funciones diseñadas para hacerte la vida más fácil y saludable. Descubre cómo nuestra plataforma puede mejorar tu bienestar.</p>
                     </div>
                 </div>
             </div>
@@ -131,60 +130,54 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <!-- Start Single Feature -->
                     <div class="single-feature wow fadeInUp" data-wow-delay=".2s">
-                        <i class="lni lni-cloud-upload"></i>
-                        <h3>Push to Deploy</h3>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a
-                            page at its layout.</p>
+                        <i class="bi bi-bookmark-plus-fill"></i>
+                        <h3>Crea y Guarda tus Habitos</h3>
+                        <p>Crea tus Rutinas con hábitos que deseas establecer en tu vida. </p>
                     </div>
                     <!-- End Single Feature -->
                 </div>
                 <div class="col-lg-4 col-md-6 col-12">
                     <!-- Start Single Feature -->
                     <div class="single-feature wow fadeInUp" data-wow-delay=".4s">
-                        <i class="lni lni-lock"></i>
-                        <h3>SSL Certificates</h3>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a
-                            page at its layout.</p>
+                        <i class="bi bi-person"></i>
+                        <h3>Conecta con otras personas</h3>
+                        <p> Suigue a amigos, familiares o miembros de la comunidad, comparte tus logros, motivense mutuamente</p>
                     </div>
                     <!-- End Single Feature -->
                 </div>
                 <div class="col-lg-4 col-md-6 col-12">
                     <!-- Start Single Feature -->
                     <div class="single-feature wow fadeInUp" data-wow-delay=".6s">
-                        <i class="lni lni-reload"></i>
-                        <h3>Simple Queues</h3>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a
-                            page at its layout.</p>
+                        <i class="bi bi-palette"></i>
+                        <h3>Personalizacion y Seguimiento</h3>
+                        <p>personaliza tus rutinas, establecer recordatorios y realizar un seguimiento de tu progreso a lo largo del tiempo.</p>
                     </div>
                     <!-- End Single Feature -->
                 </div>
                 <div class="col-lg-4 col-md-6 col-12">
                     <!-- Start Single Feature -->
                     <div class="single-feature wow fadeInUp" data-wow-delay=".2s">
-                        <i class="lni lni-shield"></i>
-                        <h3>Advanced Security</h3>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a
-                            page at its layout.</p>
+                        <i class="bi bi-share"></i>
+                        <h3>Comparte tus logros</h3>
+                        <p>Hazle saber a todos tus conocidos sobre tus logros y objetivos</p>
                     </div>
                     <!-- End Single Feature -->
                 </div>
                 <div class="col-lg-4 col-md-6 col-12">
                     <!-- Start Single Feature -->
                     <div class="single-feature wow fadeInUp" data-wow-delay=".4s">
-                        <i class="lni lni-cog"></i>
-                        <h3>Powerful API</h3>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a
-                            page at its layout.</p>
+                        <i class="bi bi-bandaid"></i>
+                        <h3>Ayuda a los demas</h3>
+                        <p>Crea rutinas queayuden a las personas mas inexpertas a iniciar en este mundo</p>
                     </div>
                     <!-- End Single Feature -->
                 </div>
                 <div class="col-lg-4 col-md-6 col-12">
                     <!-- Start Single Feature -->
                     <div class="single-feature wow fadeInUp" data-wow-delay=".6s">
-                        <i class="lni lni-layers"></i>
-                        <h3>Database Backups</h3>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a
-                            page at its layout.</p>
+                        <i class="bi bi-bell-fill"></i>
+                        <h3>Haz crecer la comunidad</h3>
+                        <p>Contribuye a mejorar la aplicacion con tus sigerencias para poder llegar a mas personas</p>
                     </div>
                     <!-- End Single Feature -->
                 </div>
@@ -194,13 +187,13 @@
     <!-- End Features Area -->
 
     <!-- Start Achievement Area -->
-    <section class="our-achievement section">
+    <section id="achievements" class="our-achievement section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1 col-md-12 col-12">
                     <div class="title">
-                        <h2>Trusted by developers from over 80 planets</h2>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority.</p>
+                        <h2>Juntos por un Mundo Más Saludable</h2>
+                        <p>Trabajamos juntos para crear un mundo más saludable, inspirando a comunidades de todo el mundo a tomar decisiones más saludables.</p>
                     </div>
                 </div>
             </div>
@@ -215,14 +208,14 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-12">
                             <div class="single-achievement wow fadeInUp" data-wow-delay=".4s">
-                                <h3 class="counter"><span id="secondo2" class="countup" cup-end="120">120</span>K</h3>
-                                <p>Happy Users</p>
+                                <h3 class="counter"><span id="secondo2" class="countup" cup-end="400">400</span>K</h3>
+                                <p>Usuarios</p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-12">
                             <div class="single-achievement wow fadeInUp" data-wow-delay=".6s">
-                                <h3 class="counter"><span id="secondo3" class="countup" cup-end="125">125</span>k+</h3>
-                                <p>Downloads</p>
+                                <h3 class="counter"><span id="secondo3" class="countup" cup-end="500">500</span>k+</h3>
+                                <p>Descargas</p>
                             </div>
                         </div>
                     </div>
@@ -233,23 +226,24 @@
     <!-- End Achievement Area -->
 
     <!-- Start Pricing Table Area -->
-    <section id="pricing" class="pricing-table section">
+    <section id="aboutUs" class="aboutUs section">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="section-title">
-                        <h3 class="wow zoomIn" data-wow-delay=".2s">pricing</h3>
-                        <h2 class="wow fadeInUp" data-wow-delay=".4s">Pricing Plan</h2>
-                        <p class="wow fadeInUp" data-wow-delay=".6s">There are many variations of passages of Lorem
-                            Ipsum available, but the majority have suffered alteration in some form.</p>
+                        <h3 class="wow zoomIn" data-wow-delay=".2s">Sobre Nosotros</h3>
+                        <h2 class="wow fadeInUp" data-wow-delay=".4s">HealthFuel</h2>
+                        <p class="wow fadeInUp" data-wow-delay=".6s">
+                            Somos una startup apasionada por el <b>bienestar.</b> 
+                            Nuestra misión es ayudarte a tomar decisiones más saludables en tu vida. 
+                            Estamos aquí para empoderarte en tu camino hacia un estilo de vida más <b>saludable y equilibrado.</b> 
+                            ¡Únete a nosotros en esta emocionante travesía hacia el <b>bienestar!</b>
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-3 col-md-6 col-12">
-                    <!-- Single Table -->
-                    <div class="single-table wow fadeInUp" data-wow-delay=".2s">
-                        <!-- Table Head -->
+                    <!--div class="single-table wow fadeInUp" data-wow-delay=".2s">
                         <div class="table-head">
                             <h4 class="title">Hobby</h4>
                             <p>All the basics for starting a new business</p>
@@ -260,27 +254,21 @@
                                 <a href="javascript:void(0)" class="btn">Buy Hobby</a>
                             </div>
                         </div>
-                        <!-- End Table Head -->
-                        <!-- Start Table Content -->
                         <div class="table-content">
                             <h4 class="middle-title">What's Included</h4>
-                            <!-- Table List -->
                             <ul class="table-list">
                                 <li><i class="lni lni-checkmark-circle"></i> Cras justo odio.</li>
                                 <li><i class="lni lni-checkmark-circle"></i> Dapibus ac facilisis in.</li>
                                 <li><i class="lni lni-checkmark-circle"></i> Morbi leo risus.</li>
                                 <li><i class="lni lni-checkmark-circle"></i> Potenti felis, in cras ligula.</li>
                             </ul>
-                            <!-- End Table List -->
                         </div>
-                        <!-- End Table Content -->
                     </div>
-                    <!-- End Single Table-->
                 </div>
                 <div class="col-lg-3 col-md-6 col-12">
-                    <!-- Single Table -->
+
                     <div class="single-table wow fadeInUp" data-wow-delay=".4s">
-                        <!-- Table Head -->
+
                         <div class="table-head">
                             <h4 class="title">Freelancer</h4>
                             <p>All the basics for starting a new business</p>
@@ -291,84 +279,40 @@
                                 <a href="javascript:void(0)" class="btn">Buy Freelancer</a>
                             </div>
                         </div>
-                        <!-- End Table Head -->
-                        <!-- Start Table Content -->
+
                         <div class="table-content">
                             <h4 class="middle-title">What's Included</h4>
-                            <!-- Table List -->
+
                             <ul class="table-list">
                                 <li><i class="lni lni-checkmark-circle"></i> Cras justo odio.</li>
                                 <li><i class="lni lni-checkmark-circle"></i> Dapibus ac facilisis in.</li>
                                 <li><i class="lni lni-checkmark-circle"></i> Morbi leo risus.</li>
                                 <li><i class="lni lni-checkmark-circle"></i> Potenti felis, in cras ligula.</li>
                             </ul>
-                            <!-- End Table List -->
+
                         </div>
-                        <!-- End Table Content -->
+
                     </div>
-                    <!-- End Single Table-->
+                </div-->
+                <div class="col-lg mb-4">
+                    <div class="card wow fadeInUp " data-wow-delay=".8s" style="min-height: 180px;">
+                        <div class="card-body p-4">
+                            <h3 class="card-title"><b>Mision</b></h3>
+                            <div class="mb-2">
+                                <p>Promovemos un estilo de vida saludable proporcionando información y herramientas confiables para que las personas tomen decisiones más saludables en su vida diaria.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-12">
-                    <!-- Single Table -->
-                    <div class="single-table wow fadeInUp" data-wow-delay=".6s">
-                        <!-- Table Head -->
-                        <div class="table-head">
-                            <h4 class="title">Startup</h4>
-                            <p>All the basics for starting a new business</p>
-                            <div class="price">
-                                <h2 class="amount">$32<span class="duration">/mo</span></h2>
-                            </div>
-                            <div class="button">
-                                <a href="javascript:void(0)" class="btn">Buy Startup</a>
+                <div class="col-lg mb-4">
+                    <div class="card wow fadeInUp" data-wow-delay=".8s" style="min-height: 180px;">
+                        <div class="card-body p-4">
+                            <h3 class="card-title"><b>Vision</b></h3>
+                            <div class="mb-2">
+                                <p>Ser líderes globales en la promoción de la salud y el bienestar, brindando una conexion universal que ayude a las personas a llevar vidas más saludables y equilibradas.</p>
                             </div>
                         </div>
-                        <!-- End Table Head -->
-                        <!-- Start Table Content -->
-                        <div class="table-content">
-                            <h4 class="middle-title">What's Included</h4>
-                            <!-- Table List -->
-                            <ul class="table-list">
-                                <li><i class="lni lni-checkmark-circle"></i> Cras justo odio.</li>
-                                <li><i class="lni lni-checkmark-circle"></i> Dapibus ac facilisis in.</li>
-                                <li><i class="lni lni-checkmark-circle"></i> Morbi leo risus.</li>
-                                <li><i class="lni lni-checkmark-circle"></i> Potenti felis, in cras ligula.</li>
-                            </ul>
-                            <!-- End Table List -->
-                        </div>
-                        <!-- End Table Content -->
                     </div>
-                    <!-- End Single Table-->
-                </div>
-                <div class="col-lg-3 col-md-6 col-12">
-                    <!-- Single Table -->
-                    <div class="single-table wow fadeInUp" data-wow-delay=".8s">
-                        <!-- Table Head -->
-                        <div class="table-head">
-                            <h4 class="title">Enterprise</h4>
-                            <p>All the basics for starting a new business</p>
-                            <div class="price">
-                                <h2 class="amount">$48<span class="duration">/mo</span></h2>
-                            </div>
-                            <div class="button">
-                                <a href="javascript:void(0)" class="btn">Buy Enterprise</a>
-                            </div>
-                        </div>
-                        <!-- End Table Head -->
-                        <!-- Start Table Content -->
-                        <div class="table-content">
-                            <h4 class="middle-title">What's Included</h4>
-                            <!-- Table List -->
-                            <ul class="table-list">
-                                <li><i class="lni lni-checkmark-circle"></i> Cras justo odio.</li>
-                                <li><i class="lni lni-checkmark-circle"></i> Dapibus ac facilisis in.</li>
-                                <li><i class="lni lni-checkmark-circle"></i> Morbi leo risus.</li>
-                                <li><i class="lni lni-checkmark-circle"></i> Potenti felis, in cras ligula.</li>
-                            </ul>
-                            <!-- End Table List -->
-                        </div>
-                        <!-- End Table Content -->
-                    </div>
-                    <!-- End Single Table-->
                 </div>
             </div>
         </div>
@@ -381,12 +325,11 @@
             <div class="row">
                 <div class="col-lg-8 offset-lg-2 col-md-12 col-12">
                     <div class="cta-content">
-                        <h2 class="wow fadeInUp" data-wow-delay=".2s">You are using free Lite <br>Version of Appvilla
+                        <h2 class="wow fadeInUp" data-wow-delay=".2s">Estas a un paso de ser mas<br>Saludable
                         </h2>
-                        <p class="wow fadeInUp" data-wow-delay=".4s">Please, purchase full version of the template to
-                            get all pages, features and commercial license.</p>
+                        <p class="wow fadeInUp" data-wow-delay=".4s">No tengas miedo de cumplir tus objetivos</p>
                         <div class="button wow fadeInUp" data-wow-delay=".6s">
-                            <a href="javascript:void(0)" class="btn">Purchase Now</a>
+                            <a href="javascript:void(0)" class="btn">Probar Ahora</a>
                         </div>
                     </div>
                 </div>
@@ -402,14 +345,14 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-12">
-                        <!-- Single Widget -->
+                        
                         <div class="single-footer f-about">
                             <div class="logo">
                                 <a href="index.html">
-                                    <img src="assets/images/logo/white-logo.svg" alt="#">
+                                    <img src="assets/images/logo/white-logo.png" alt="#">
                                 </a>
                             </div>
-                            <p>Making the world a better place through constructing elegant hierarchies.</p>
+                            <p>Por un mundo mas saludable</p>
                             <ul class="social">
                                 <li><a href="javascript:void(0)"><i class="lni lni-facebook-filled"></i></a></li>
                                 <li><a href="javascript:void(0)"><i class="lni lni-twitter-original"></i></a></li>
@@ -418,71 +361,10 @@
                                 <li><a href="javascript:void(0)"><i class="lni lni-youtube"></i></a></li>
                                 <li><a href="javascript:void(0)"><i class="lni lni-pinterest"></i></a></li>
                             </ul>
-                            <p class="copyright-text">Designed and Developed by <a href="https://uideck.com/"
-                                    rel="nofollow" target="_blank">UIdeck</a>
+                            <p class="copyright-text">Diseñado y Desplegado por <a target="_blank">HealthFuel</a>
                             </p>
                         </div>
-                        <!-- End Single Widget -->
-                    </div>
-                    <div class="col-lg-8 col-md-8 col-12">
-                        <div class="row">
-                            <div class="col-lg-3 col-md-6 col-12">
-                                <!-- Single Widget -->
-                                <div class="single-footer f-link">
-                                    <h3>Solutions</h3>
-                                    <ul>
-                                        <li><a href="javascript:void(0)">Marketing</a></li>
-                                        <li><a href="javascript:void(0)">Analytics</a></li>
-                                        <li><a href="javascript:void(0)">Commerce</a></li>
-                                        <li><a href="javascript:void(0)">Insights</a></li>
-                                        <li><a href="javascript:void(0)">Promotion</a></li>
-                                    </ul>
-                                </div>
-                                <!-- End Single Widget -->
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-12">
-                                <!-- Single Widget -->
-                                <div class="single-footer f-link">
-                                    <h3>Support</h3>
-                                    <ul>
-                                        <li><a href="javascript:void(0)">Pricing</a></li>
-                                        <li><a href="javascript:void(0)">Documentation</a></li>
-                                        <li><a href="javascript:void(0)">Guides</a></li>
-                                        <li><a href="javascript:void(0)">API Status</a></li>
-                                        <li><a href="javascript:void(0)">Live Support</a></li>
-                                    </ul>
-                                </div>
-                                <!-- End Single Widget -->
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-12">
-                                <!-- Single Widget -->
-                                <div class="single-footer f-link">
-                                    <h3>Company</h3>
-                                    <ul>
-                                        <li><a href="javascript:void(0)">About Us</a></li>
-                                        <li><a href="javascript:void(0)">Our Blog</a></li>
-                                        <li><a href="javascript:void(0)">Jobs</a></li>
-                                        <li><a href="javascript:void(0)">Press</a></li>
-                                        <li><a href="javascript:void(0)">Contact Us</a></li>
-                                    </ul>
-                                </div>
-                                <!-- End Single Widget -->
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-12">
-                                <!-- Single Widget -->
-                                <div class="single-footer f-link">
-                                    <h3>Legal</h3>
-                                    <ul>
-                                        <li><a href="javascript:void(0)">Terms & Conditions</a></li>
-                                        <li><a href="javascript:void(0)">Privacy Policy</a></li>
-                                        <li><a href="javascript:void(0)">Catering Services</a></li>
-                                        <li><a href="javascript:void(0)">Customer Relations</a></li>
-                                        <li><a href="javascript:void(0)">Innovation</a></li>
-                                    </ul>
-                                </div>
-                                <!-- End Single Widget -->
-                            </div>
-                        </div>
+                      
                     </div>
                 </div>
             </div>
